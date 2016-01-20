@@ -4,7 +4,7 @@ from .models import Redirect, ClickLog
 # Register your models here.
 
 class RedirectAdmin(admin.ModelAdmin):
-    list_display = ('short', 'url')
+    list_display = ('name', 'short', 'url')
 
 class ClickLogAdmin(admin.ModelAdmin):
     list_display = ('url', 'ip', 'created')

@@ -14,11 +14,12 @@ def _md5(text):
 
 
 class Redirect(models.Model):
+    name = models.CharField(max_length=255)
     short = models.CharField(unique=True, max_length=255, blank=True)
     url = models.URLField()
 
     def __unicode__(self):
-        return self.short
+        return self.name
 
     def save(self, *args, **kwargs):
         if not self.short:
