@@ -1,6 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+<<<<<<< HEAD
 *$py.class
 
 # C extensions
@@ -29,11 +30,14 @@ var/
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+=======
+>>>>>>> d0487f0445b972993f5a24fbdb5cc4e1a8bbb6c5
 
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
 
+<<<<<<< HEAD
 # Unit test / coverage reports
 htmlcov/
 .tox/
@@ -57,3 +61,74 @@ docs/_build/
 
 # PyBuilder
 target/
+=======
+# Packaging files:
+*.egg*
+
+# Sphinx docs:
+build
+.cache/
+
+# SQLite3 database files:
+*.db
+*.sqlite3
+*.sqlite
+
+# Logs:
+*.log
+
+# Environment variables
+local.env
+
+# Django stuff:
+*.mo
+*.pot
+*.log
+venv/
+assets/
+local.db
+
+# Eclipse
+.project
+.pydevproject
+.settings
+
+# Linux Editors
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+*.swp
+*.swo
+
+# Rope
+.ropeproject
+
+# Mac
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# PyCharm
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Cache
+CACHE
+>>>>>>> d0487f0445b972993f5a24fbdb5cc4e1a8bbb6c5
