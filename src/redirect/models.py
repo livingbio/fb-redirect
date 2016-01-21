@@ -33,6 +33,3 @@ class ClickLog(models.Model):
     ip = models.GenericIPAddressField()
 
     created = models.DateTimeField(auto_now_add=True)
-
-    def __unicode__(self):
-        return self.id
