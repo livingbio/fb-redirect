@@ -3,11 +3,11 @@
 </head>
     <body>
         <script type="text/javascript">
-            window.location.href = "{{target}}";
+            window.location.href = "{{target|safe}}";
         </script>
 
         <noscript>
-            <META http-equiv="refresh" content="0;URL='{{target}}'"><!-- FB 用 -->
+            <META http-equiv="refresh" content="0;URL='{{target|safe}}'"><!-- FB 用 -->
         </noscript>
     </body>
 </html>
